@@ -3,8 +3,17 @@ body {
     color: #222;
   }
   h1{
-    text-align: center;
+    justify-content: center;
   }
+
+  /*emoji class fles alignment adjusted*/
+  .emojis{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:0.5rem;
+  }
+
   .emoji {
     border: 1px solid #222;
     border-radius: 8px;
