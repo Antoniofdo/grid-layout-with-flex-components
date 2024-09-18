@@ -2,29 +2,31 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
   }
-  
+
   /*emojis class flex alignment adjusted*/
-  .emojis{
+  .emojis {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap:0.5rem;
+    justify-content: center;
+    gap: 1rem;
   }
 
    /*emoji class border,textalignment, flex and box sizing adjusted*/
-  .emoji {
+   .emoji {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
     text-align: left;
+    flex: 1 1 calc(50% - 1rem);
+    box-sizing: border-box;
+    max-width: calc(50% - 1rem);
     display: flex;
     flex-direction: column;
-    flex: 1 1 calc(60% -1rem);
-    box-sizing: border-box;
-    max-width: calc(60%-1rem);
-  }
-  
+   }
+
+
   /*emoji class header2 margin, border bottom, text align, margin botoom, align-self added*/
+    /*Done*/
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
@@ -39,17 +41,18 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    text-align: left;
     display: block;
-    text-align: left; 
     word-wrap: normal;
     align-self: stretch;
     margin-top: auto;
   }
   
+  
   .icon {
     font-size: 4rem;
     text-align: center;
-    margin-bottom: 0.5 rem;
+    margin-bottom: 0.5rem;
     order: -1;
   }
 
