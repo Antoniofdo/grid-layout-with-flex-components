@@ -26,7 +26,6 @@ body {
 
 
   /*emoji class header2 margin, border bottom, text align, margin botoom, align-self added*/
-    /*Done*/
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
@@ -35,6 +34,7 @@ body {
     align-self: stretch;
   }
   
+  /* emoji button class underline removed BGC, color, padding,alignment, display, wor-wrap, marin added */
   .emoji a {
     text-decoration: none;
     background-color: #781BAA;
@@ -48,14 +48,15 @@ body {
     margin-top: auto;
   }
   
-  
+  /*icons class size, alignmentbeen, margin  added */
   .icon {
     font-size: 4rem;
     text-align: center;
     margin-bottom: 0.5rem;
     order: -1;
   }
-
+   
+  /* emoji para class alignment and flex been added*/
   .emoji p {
     text-align: left;
     align-self: stretch;
