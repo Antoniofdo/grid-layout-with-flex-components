@@ -18,6 +18,12 @@ body {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(60% -1rem);
+    box-sizing: border-box;
+    max-width: calc(60%-1rem);
   }
   
   .emoji h2 {
