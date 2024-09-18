@@ -55,3 +55,9 @@ body {
     margin-bottom: 0.5 rem;
     order: -1;
   }
+
+  .emoji p {
+    text-align: left;
+    align-self: stretch;
+    flex-grow: 1;
+  }
